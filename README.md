@@ -47,10 +47,8 @@ make init
 
 ### Fluxo de Execução da Aplicação
 ```
-
-
-- cd imdb/imdb/spiders
-- scrapy runspider top500.py -o saida.json
+cd imdb/imdb/spiders
+scrapy runspider top500.py -o saida.json
 ```
 
 
