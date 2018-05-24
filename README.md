@@ -51,7 +51,3 @@ cd imdb/imdb/spiders
 scrapy runspider top500.py -o saida.json
 ```
 
-
-principal_sicoob_relacionamento.py <layout-entrada> <layout-saida> <arquivo-entrada> <arquivo-saida>
-```
-
