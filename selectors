@@ -1,0 +1,9 @@
+url = 'https://www.imdb.com/search/title?groups=top_500&sort=user_rating&view=advanced'
+
+extract_selectors = response.css('.lister-item')
+titles = response.css('.lister-item-header > a::text').extract()
+ratings = response.css('.ratings-imdb-rating > strong::text').extract()
+genres = response.css('.genre::text').extract()
+
+
+
