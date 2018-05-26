@@ -47,9 +47,15 @@ Instalar as dependências:
 make init
 ```
 
-### Fluxo de Execução da Aplicação
+### Fluxo de Execução da Aplicação para saída JSON
 ```
 cd imdb/imdb/spiders
 scrapy runspider top500.py -o saida.json
+```
+
+### Fluxo de Execução da Aplicação para saída JSONL
+```
+cd imdb/imdb/spiders
+scrapy runspider top500.py -o saida.jsonl -t jsonlines
 ```
 
